@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link favicon -->
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <title>Figo</title>
+  </head>
+  <body>
+    <!-- start of header -->
+    <section id="header">
+      <header>
+        <h1 id="logo">Figo</h1>
+        <ul id="navigation-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#welcome" class="nav-link">About</a></li>
+          <li><a href="#reason" class="nav-link">Reason</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#explore-recipes" class="nav-link">Search Recipe</a></li>
+        </ul>
+        <div id="cart">
+          <i class="fa-solid fa-cart-shopping"
+            ><span id="cart-badge">3</span></i
+          >
+        </div>
+      </header>
+    </section>
+    <!-- end header -->
+
+    <!-- start of home -->
+    <section id="home">
+      <div class="home-container">
+        <div>
+          <h1 class="home-title">All in Good Taste Food With Figo.</h1>
+          <p class="home-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            reiciendis quos nulla repellendus molestiae ex doloribus. Quo
+            dolorem minus perferendis!
+          </p>
+          <form id="home-form" action="">
+            <input
+              class="home-input"
+              type="text"
+              placeholder="Enter your address.."
+            />
+            <button class="home-btn" type="submit">Get Started</button>
+          </form>
+        </div>
+        <img class="home-image" src="assets/pizza.jpg" alt="pizza" />
+      </div>
+    </section>
+    <!-- end of home -->
+
+    <!-- start of welcome section -->
+    <section id="welcome">
+      <div class="welcome-container">
+        <img class="welcome-image" src="assets/chef.jpg" alt="chef" />
+        <div>
+          <p class="welcome">Welcome</p>
+          <h2 class="welcome-title">Welcome to Figo Restaurant</h2>
+          <p class="welcome-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minus,
+            soluta reiciendis alias hic delectus nisi accusantium blanditiis
+            est, ea sapiente rerum. Accusamus fuga illum, corrupti quisquam vero
+            quae hic quia expedita dolores facere praesentium voluptate soluta
+            cupiditate delectus recusandae. Eligendi commodi, rerum quisquam
+            consequuntur eius fuga. Nisi amet illum esse reprehenderit
+            consectetur enim! Itaque ratione veniam debitis autem. Error.
+          </p>
+          <button class="welcome-btn">Explore Our Story</button>
+        </div>
+      </div>
+    </section>
+    <!-- end of welcome section -->
+
+    <!-- start of reason section -->
+    <section id="reason">
+      <div class="reason-container">
+        <p class="reason">Reason</p>
+        <h2 class="reason-heading">Why Choose Us?</h2>
+        <div class="cards">
+          <!-- 1st card -->
+          <div class="card">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h3 class="reason-title">Various Menus</h3>
+            <p class="reason-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum
+              repudiandae labore cum nulla possimus, in delectus excepturi!
+            </p>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="card">
+            <i class="fa-solid fa-truck"></i>
+            <h3 class="reason-title">Pocket Friendly Delivery</h3>
+            <p class="reason-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              modi quaerat explicabo aliquam distinctio alias doloremque
+              doloribus error?
+            </p>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="card">
+            <i class="fa-solid fa-gift"></i>
+            <h3 class="reason-title">Best Offers</h3>
+            <p class="reason-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              hic debitis deserunt cum sunt. Reprehenderit eveniet deleniti
+              deserunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of reason section -->
+
+    <!-- start of menu section -->
+    <section id="menu">
+      <div class="menu-container">
+        <p class="browse">Browse</p>
+        <h2 class="menu-heading">Explore Our Menu</h2>
+        <div class="menu-cards">
+          <!-- vertical menu -->
+          <ul class="menu">
+            <li class="menu-item active">Breakfast</li>
+            <li class="menu-item">Lunch</li>
+            <li class="menu-item">Dinner</li>
+            <li class="menu-item">Desert</li>
+            <li class="menu-item">Soups</li>
+            <li class="menu-item">Drinks</li>
+          </ul>
+
+          <!-- menu card items -->
+          <div class="menu-card-items">
+            <!-- 1st card -->
+            <div class="card-item">
+              <div class="card-image">
+                <img src="assets/chickenMasala.jpg" alt="" />
+              </div>
+              <h4 class="card-title">Chicken Masala</h4>
+              <p class="card-price">
+                $ 120 <span class="changed-price">150</span>
+              </p>
+              <button class="card-btn">Add to Cart</button>
+            </div>
+
+            <!-- 2nd card -->
+            <div class="card-item">
+              <div class="card-image">
+                <img src="assets/nunBread.jpg" alt="" />
+              </div>
+              <h4 class="card-title">Nun Bread</h4>
+              <p class="card-price">
+                $ 75 <span class="changed-price">100</span>
+              </p>
+              <button class="card-btn">Add to Cart</button>
+            </div>
+
+            <!-- 3rd card -->
+            <div class="card-item">
+              <div class="card-image">
+                <img src="assets/sandwichSoup.jpg" alt="" />
+              </div>
+              <h4 class="card-title">Sandwich Soup</h4>
+              <p class="card-price">
+                $ 100 <span class="changed-price">140</span>
+              </p>
+              <button class="card-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of menu section -->
+
+    <!-- start of explore recipes section -->
+    <section id="explore-recipes">
+      <div class="explore-recipes-container">
+        <p class="recipes">Recipes</p>
+        <h2>Search Recipes</h2>
+
+        <!-- recipe form to search recipe -->
+        <form action="#" id="recipe-form">
+          <input
+            type="text"
+            id="recipe-name"
+            placeholder="Search recipe"
+            required
+          />
+          <br /><br />
+          <div class="diet-plus-exclude">
+            <select name="diet" id="diet"></select>
+            <input
+              type="text"
+              id="exclude-ingredient"
+              name="exclude-ingredient"
+              placeholder="Ingredient to exclude"
+              required
+            />
+          </div>
+          <br />
+
+          <button id="recipe-btn" type="submit">Search</button>
+        </form>
+
+        <!-- where to display recipe search results -->
+        <div id="search-results-container"></div>
+      </div>
+    </section>
+    <!-- end of recipe section -->
+
+    <!-- start of footer section-->
+    <section id="footer">
+      <div class="footer-container">
+        <div>
+          <h2>Figo</h2>
+          <p>Don't Miss to Subscribe to Our News Feed.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+          <p>&copy 2023 Figo, Org.</p>
+        </div>
+        <div class="links">
+          <h5>Our Menu</h5>
+          <ul>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Catering</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="#">+254734576512</a></li>
+            <li><a href="#">info@restaurant.com</a></li>
+            <li><a href="#">Nairobi, Kenya</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end of footer section-->
+
+    <!-- start of procedure modal/will be displayed relative to the body -->
+    <div id="procedure-modal">
+      <span id="close-modal">&times;</span>
+    </div>
+    <!-- end of procedure modal -->
+
+    <!-- link js -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
